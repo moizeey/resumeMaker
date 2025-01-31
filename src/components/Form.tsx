@@ -12,12 +12,9 @@ function Form() {
     twitterActive,
     setTwitterActive,
   } = useActiveContext();
-  // const [linkedIn, setLinkedIn] = useState(false);
-  // const [twitter, setTwitter] = useState(false);
-  // const [github, setGithub] = useState(false);
 
   return (
-    <div className="max-w-7xl lg:w-[60%] md:w-[80%] sm:w-[90%] w-[98%] mt-4 mx-auto mb-1 rounded-md  bg-white">
+    <div className="max-w-7xl mx-auto lg:w-[60%] md:w-[80%] sm:w-[90%] w-[98%] mt-4  mb-1 rounded-md  bg-white">
       <form className="px-10 py-10 space-y-2 ">
         <div className="flex flex-col gap-2">
           <label className="">Full name</label>

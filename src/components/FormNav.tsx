@@ -6,7 +6,7 @@ function FormNav() {
   const location = useLocation();
 
   return (
-    <div className="pt-10 max-w-7xl  mx-auto flex flex-wrap justify-center md:gap-x-11 gap-x-6 items-center">
+    <div className="pt-10 max-w-7xl  mx-auto flex  flex-wrap justify-center md:gap-x-11 gap-x-6 items-center ">
       {state.sections.map((item, index) => (
         <div key={index} className="flex justify-center items-center  gap-1 ">
           <div
@@ -16,13 +16,14 @@ function FormNav() {
           >
             {item.id}
           </div>
-          <NavLink
-            to={item.path}
-            className="text-xl  hover:underline cursor-pointer"
-          >
-            {item.name}
-          </NavLink>
-          {}
+          <div>
+            <NavLink
+              to={item.path}
+              className="text-xl  hover:underline cursor-pointer"
+            >
+              {item.name}
+            </NavLink>
+          </div>
         </div>
       ))}
     </div>

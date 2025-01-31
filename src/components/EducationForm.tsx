@@ -132,7 +132,7 @@ function EducationForm() {
           </form>
         </div>
       </Dialog>
-      <div className="px-10  ">
+      <div className="px-10  py-10">
         <div className="flex  flex-col gap-2 pb-10">
           {state.education &&
             state.education.map((item, index) => (
