@@ -1,4 +1,3 @@
-import Form from "./Form";
 import FormNav from "./FormNav";
 import Navbar from "./Navbar";
 
@@ -7,7 +6,6 @@ function Home() {
     <>
       <Navbar />
       <FormNav />
-      {/* <Form /> */}
     </>
   );
 }
