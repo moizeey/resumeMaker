@@ -31,7 +31,7 @@ function Download() {
         <div className="flex justify-center items-center flex-col gap-4 mt-6">
           <img
             className="w-[30%] h-[30%] border-2 rounded-md"
-            src="../public/standard.webp"
+            src="/standard.webp"
             alt="standard"
           />
 
